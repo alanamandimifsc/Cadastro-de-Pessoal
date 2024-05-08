@@ -1,0 +1,39 @@
+{
+    "usuarios": [
+        {
+            "id": "1",
+            "nome": "Esther Gabrielly Hadassa Pires",
+            "email": "esther_pires@paae.com.br",
+            "cpf": "86103918766",
+            "data_nasc": "12/01/2004",
+            "sexo": "Feminino",
+            "senha": "JrMLyuSUHW",
+            "cep": "21815520",
+            "rua": "Rua Afrodite",
+            "numero": 748,
+            "bairro": "Bangu",
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ",
+            "logado": true
+        }
+    ],
+    "servidores": [
+        {
+            "id": "1",
+            "matricula": "2652689",
+            "nome": "Esther Gabrielly Hadassa Pires",
+            "email": "esther_pires@paae.com.br",
+            "cpf": "86103918766",
+            "data_nasc": "12/01/2004",
+            "sexo": "Feminino",
+            "senha": "JrMLyuSUHW",
+            "cep": "21815520",
+            "rua": "Rua Afrodite",
+            "numero": 748,
+            "bairro": "Bangu",
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ",
+            "logado": true
+        }
+    ]
+}
