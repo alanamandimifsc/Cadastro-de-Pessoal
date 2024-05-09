@@ -63,7 +63,7 @@ function HeaderEdicao() {
             <Toolbar>
 
                 <>
-                    <Button component={Link} to="/register/cadastro" color="inherit" sx={{ mr: 2 }} >
+                    <Button component={Link} to="/registerservidores/data" color="inherit" sx={{ mr: 2 }} >
                         Novo
                     </Button>
 

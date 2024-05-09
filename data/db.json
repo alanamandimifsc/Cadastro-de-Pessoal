@@ -1,39 +1,86 @@
 {
-    "usuarios": [
-        {
-            "id": "1",
-            "nome": "Esther Gabrielly Hadassa Pires",
-            "email": "esther_pires@paae.com.br",
-            "cpf": "86103918766",
-            "data_nasc": "12/01/2004",
-            "sexo": "Feminino",
-            "senha": "JrMLyuSUHW",
-            "cep": "21815520",
-            "rua": "Rua Afrodite",
-            "numero": 748,
-            "bairro": "Bangu",
-            "cidade": "Rio de Janeiro",
-            "estado": "RJ",
-            "logado": true
-        }
-    ],
-    "servidores": [
-        {
-            "id": "1",
-            "matricula": "2652689",
-            "nome": "Esther Gabrielly Hadassa Pires",
-            "email": "esther_pires@paae.com.br",
-            "cpf": "86103918766",
-            "data_nasc": "12/01/2004",
-            "sexo": "Feminino",
-            "senha": "JrMLyuSUHW",
-            "cep": "21815520",
-            "rua": "Rua Afrodite",
-            "numero": 748,
-            "bairro": "Bangu",
-            "cidade": "Rio de Janeiro",
-            "estado": "RJ",
-            "logado": true
-        }
-    ]
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Esther Gabrielly Hadassa Pires",
+      "email": "esther_pires@paae.com.br",
+      "cpf": "86103918766",
+      "data_nasc": "12/01/2004",
+      "sexo": "Feminino",
+      "senha": "JrMLyuSUHW",
+      "cep": "21815520",
+      "rua": "Rua Afrodite",
+      "numero": 748,
+      "bairro": "Bangu",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "logado": true
+    }
+  ],
+  "servidores": [
+    {
+      "id": "5",
+      "matricula": "0201910",
+      "nome": "alana mandim",
+      "nome_mae": "alana mandim",
+      "nome_pai": "alana mandim",
+      "data_nasc": "2024-05-08",
+      "estado_civil": "Solteiro(a)",
+      "sexo": "Masculino",
+      "conjugue": "",
+      "cep": "88049-015",
+      "rua": "Avenida Blumenau",
+      "numero_complemento": "1234",
+      "bairro": "Tapera",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "telefone": "2194340906",
+      "celular": "21984340906"
+    }
+  ],
+  "outrosdados": [
+    {
+      "id": "5",
+      "cpf": "10637225783",
+      "identidade": "1212",
+      "org_exp": "de",
+      "data_exp": "2024-04-30",
+      "titulo_eleitor": "2323312321",
+      "secao": "3",
+      "zona": "21",
+      "data_titulo": "2024-05-01",
+      "cert_reservista": "123321",
+      "serie": "3",
+      "data": "2024-05-02",
+      "tipo_sanguineo": "A+"
+    }
+  ],
+  "unidadessj": [
+    {
+      "id": "5",
+      "serv_ativo": "Sim",
+      "emit_freq": "Não",
+      "ramal": "345",
+      "data_admissao": "2024-05-07",
+      "cargo": "prof",
+      "funcao": "bla",
+      "lotacao": "CTIC",
+      "titulacao_nivel": "aaa",
+      "classe": "D",
+      "padrao": "sad",
+      "regime": "s"
+    }
+  ],
+  "escolaridade": [
+    {
+      "id": "5",
+      "escolaridade": "",
+      "descricao": "teste",
+      "instituicao": "sas",
+      "licenciatura": "Sim",
+      "tipo_instituicao": "Pública",
+      "ano_conclusao": "2012",
+      "nivel": "op2"
+    }
+  ]
 }

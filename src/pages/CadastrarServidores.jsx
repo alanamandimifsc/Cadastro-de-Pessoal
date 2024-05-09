@@ -12,7 +12,7 @@ export const CadastrarServidores = () => {
                 <HeaderEdicao />
                 <HeaderServidores />
             </div>
-            <h1>Página de Cadastro</h1>
+            {/* <h1>Página de Cadastro</h1> */}
 
 
             <Outlet />

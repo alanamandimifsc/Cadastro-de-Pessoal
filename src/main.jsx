@@ -4,13 +4,16 @@ import { RouterProvider } from 'react-router-dom'
 import { Routes } from './routes/Routes.jsx'
 import './index.css'
 import { UsuariosProvider } from './context/UsuariosContext.jsx'
+import { ServidoresProvider } from './context/ServidoresContext.jsx'
 // import { LugaresProvider } from './context/LugaresContex.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <UsuariosProvider>
-    {/* // <LugaresProvider> */}
-    <RouterProvider router={Routes}>
-    </RouterProvider>
+    <ServidoresProvider>
+      {/* // <LugaresProvider> */}
+      <RouterProvider router={Routes}>
+      </RouterProvider>
+    </ServidoresProvider>
     {/* // </LugaresProvider> */}
   </UsuariosProvider>
 )

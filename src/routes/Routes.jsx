@@ -62,7 +62,15 @@ export const Routes = createBrowserRouter([
                         element: <Dados />
                     },
                     {
+                        path: 'data/:id',
+                        element: <Dados />
+                    },
+                    {
                         path: 'otherinfo',
+                        element: <OutrosDados />
+                    },
+                    {
+                        path: 'otherinfo/:id',
                         element: <OutrosDados />
                     },
                     {
@@ -70,7 +78,15 @@ export const Routes = createBrowserRouter([
                         element: <UnidadesSJ />
                     },
                     {
+                        path: 'units/:id',
+                        element: <UnidadesSJ />
+                    },
+                    {
                         path: 'education',
+                        element: <Escolaridade />
+                    },
+                    {
+                        path: 'education/:id',
                         element: <Escolaridade />
                     }
                 ]
