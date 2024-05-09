@@ -9,7 +9,7 @@ import { PaginaInicial } from "../pages/PaginaInicial"
 // import Menu from "../components/menu";
 
 import { Navigate } from "react-router-dom";
-import { Cadastrar } from "../pages/Cadastrar";
+import { CadastrarServidores } from "../pages/CadastrarServidores";
 import { Relatorios } from "../pages/Relatorios";
 import { Janela } from "../pages/Janela";
 import { Ajuda } from "../pages/Ajuda";
@@ -50,8 +50,8 @@ export const Routes = createBrowserRouter([
             },
 
             {
-                path: "/register",
-                element: <Cadastrar />,
+                path: "/registerservidores",
+                element: <CadastrarServidores />,
                 children: [
                     {
                         path: 'cadastro',

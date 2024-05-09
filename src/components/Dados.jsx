@@ -7,23 +7,23 @@ function Dados() {
     const onSubmit = data => console.log(data);
 
     return (
-        <Container maxWidth="sm" style={{ marginTop: '130px' }}>
+        <Container maxWidth="sm" style={{ marginTop: '170px' }}>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <Grid container spacing={2}>
                     <Grid item xs={6}>
-                        <TextField {...register("Matricula", { required: true, maxLength: 7, minLength: 7 })} label="Matrícula" fullWidth />
+                        <TextField {...register("Matricula", { required: true, maxLength: 7, minLength: 7 })} label="Matrícula" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Nome", { required: true, maxLength: 100 })} label="Nome" fullWidth />
+                        <TextField {...register("Nome", { required: true, maxLength: 100 })} label="Nome" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={12}>
-                        <TextField {...register("Nome da Mãe", { required: true, maxLength: 100 })} label="Nome da Mãe" fullWidth />
+                        <TextField {...register("Nome da Mãe", { required: true, maxLength: 100 })} label="Nome da Mãe" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={12}>
-                        <TextField {...register("Nome do Pai", { required: true, maxLength: 100 })} label="Nome do Pai" fullWidth />
+                        <TextField {...register("Nome do Pai", { required: true, maxLength: 100 })} label="Nome do Pai" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Data de Nascimento", { required: true })} label="Data de Nascimento" fullWidth />
+                        <TextField {...register("Data de Nascimento", { required: true })} label="Data de Nascimento" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
                         <FormControl fullWidth>
@@ -46,28 +46,28 @@ function Dados() {
                         </FormControl>
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Conjugue")} label="Cônjuge" fullWidth />
+                        <TextField {...register("Conjugue")} label="Cônjuge" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={12}>
-                        <TextField {...register("Endereço", { required: true })} label="Endereço" fullWidth />
+                        <TextField {...register("Endereço", { required: true })} label="Endereço" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Numero / Complemento", { required: true })} label="Número / Complemento" fullWidth />
+                        <TextField {...register("Numero / Complemento", { required: true })} label="Número / Complemento" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Bairro", { required: true })} label="Bairro" fullWidth />
+                        <TextField {...register("Bairro", { required: true })} label="Bairro" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Cidade ", { required: true })} label="Cidade" fullWidth />
+                        <TextField {...register("Cidade ", { required: true })} label="Cidade" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Estado", { required: true, maxLength: 2 })} label="Estado" fullWidth />
+                        <TextField {...register("Estado", { required: true, maxLength: 2 })} label="Estado" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Telefone", { maxLength: 8, minLength: 8 })} label="Telefone" fullWidth />
+                        <TextField {...register("Telefone", { maxLength: 8, minLength: 8 })} label="Telefone" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Celular", { maxLength: 9 })} label="Celular" fullWidth />
+                        <TextField {...register("Celular", { maxLength: 9 })} label="Celular" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                 </Grid>
                 <Button type="submit" variant="contained" color="primary" fullWidth style={{ marginTop: '20px' }}>Enviar</Button>

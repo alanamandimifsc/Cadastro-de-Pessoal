@@ -7,7 +7,7 @@ function Escolaridade() {
     const onSubmit = data => console.log(data);
 
     return (
-        <Container maxWidth="sm" style={{ marginTop: '130px' }}>
+        <Container maxWidth="sm" style={{ marginTop: '140px' }}>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <Paper elevation={3} style={{ padding: '10px' }}>
                     <Grid container spacing={2}>
@@ -35,8 +35,8 @@ function Escolaridade() {
                         <Grid item xs={12}>
                             <Paper elevation={3} style={{ padding: '10px', marginTop: '10px' }}>
                                 <Typography variant="h6" gutterBottom>Graduação</Typography>
-                                <TextField {...register("Descrição")} label="Descrição" fullWidth style={{ marginBottom: '20px' }} />
-                                <TextField {...register("Instituição")} label="Instituição" fullWidth style={{ marginBottom: '20px' }} />
+                                <TextField {...register("Descrição")} label="Descrição" fullWidth InputLabelProps={{ shrink: true }} style={{ marginBottom: '20px' }} />
+                                <TextField {...register("Instituição")} label="Instituição" fullWidth InputLabelProps={{ shrink: true }} style={{ marginBottom: '20px' }} />
                                 <Grid container spacing={2}>
                                     <Grid item xs={4}>
                                         <FormControl fullWidth>

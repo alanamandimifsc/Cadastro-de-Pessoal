@@ -7,7 +7,7 @@ function OutrosDados() {
     const onSubmit = data => console.log(data);
 
     return (
-        <Container maxWidth="sm" style={{ marginTop: '20px' }}>
+        <Container maxWidth="sm" style={{ marginTop: '100px' }}>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <Grid container spacing={2}>
                     <Grid item xs={6}>
@@ -43,7 +43,7 @@ function OutrosDados() {
                     <Grid item xs={6}>
                         <TextField {...register("Data")} type="date" label="Data Exp" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid item xs={6}>
                         <FormControl fullWidth>
                             <InputLabel>Tipo Sanguíneo</InputLabel>
                             <Select {...register("Tipo Sanguíneo", { required: true })} defaultValue="">

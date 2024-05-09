@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { UsuariosContext } from '../context/UsuariosContext';
 
-
 const menuOptions = [
     { text: 'Relação de Servidores para Assinatura', link: '/register' },
     { text: 'Relação de Servidores com Telefones', link: '/register' },
@@ -17,14 +16,8 @@ const menuOptions = [
 ];
 
 const MenuRelatorios = ({ open, toggleMenu }) => {
-
-
-
     const { logout } = useContext(UsuariosContext);
-    const menuStyle = {
-        backgroundColor: '#333', // cor de fundo 
-        color: '#fff', // cor do texto 
-    };
+
     const handleOptionClick = async (action) => {
         toggleMenu();
         if (action === 'logout') {
@@ -37,17 +30,12 @@ const MenuRelatorios = ({ open, toggleMenu }) => {
             } catch (error) {
                 console.error('Error logging out:', error);
             }
-
         }
     };
 
-    if (!open) {
-        return null;
-    }
-
     return (
-        <div style={{ width: 250 }}>
-            <List style={menuStyle}>
+        <div style={{ zIndex: open ? 9999 : -1, position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', display: open ? 'block' : 'none', width: 250 }}>
+            <List style={{ backgroundColor: '#333', color: '#fff' }}>
                 {menuOptions.map((option, index) => (
                     <ListItem
                         button

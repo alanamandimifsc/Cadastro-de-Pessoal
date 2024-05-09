@@ -7,11 +7,11 @@ function UnidadesSJ() {
     const onSubmit = data => console.log(data);
 
     return (
-        <Container maxWidth="sm" style={{ marginTop: '20px' }}>
+        <Container maxWidth="sm" style={{ marginTop: '140px' }}>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <Grid container spacing={2}>
                     <Grid item xs={6}>
-                        <FormControl fullWidth>
+                        <FormControl fullWidth >
                             <InputLabel>Servidor Ativo</InputLabel>
                             <Select {...register("Servidor Ativo")} defaultValue="">
                                 <MenuItem value="Sim">Sim</MenuItem>
@@ -29,16 +29,16 @@ function UnidadesSJ() {
                         </FormControl>
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Ramal")} label="Ramal" fullWidth />
+                        <TextField {...register("Ramal")} label="Ramal" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
                         <TextField {...register("Data da Admissão")} type="date" label="Data da Admissão" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Cargo")} label="Cargo" fullWidth />
+                        <TextField {...register("Cargo")} label="Cargo" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Função")} label="Função" fullWidth />
+                        <TextField {...register("Função")} label="Função" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
                         <FormControl fullWidth>
@@ -51,7 +51,7 @@ function UnidadesSJ() {
                         </FormControl>
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Titulação/Nível")} label="Titulação/Nível" fullWidth />
+                        <TextField {...register("Titulação/Nível")} label="Titulação/Nível" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
                         <FormControl fullWidth>
@@ -64,10 +64,10 @@ function UnidadesSJ() {
                         </FormControl>
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Padrão")} label="Padrão" fullWidth />
+                        <TextField {...register("Padrão")} label="Padrão" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField {...register("Regime")} label="Regime" fullWidth />
+                        <TextField {...register("Regime")} label="Regime" fullWidth InputLabelProps={{ shrink: true }} />
                     </Grid>
                     <Grid item xs={12}>
                         <Paper elevation={3} style={{ padding: '20px', marginTop: '20px' }}>
